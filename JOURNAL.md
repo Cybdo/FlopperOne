@@ -29,7 +29,7 @@ Created On: 2025-09-06
 All is going well so far
 <img width="1672" height="1032" alt="image" src="https://github.com/user-attachments/assets/bf7b642a-0a42-481e-ad2f-208a0da4cbfe" />
 
-**Journal 2.1 Edit: Changed some caps around, I thought I was smart with the different capacitors for frequency impedance but theres 6 pins so 6 caps haha **
+**Journal 2.1 Edit: Changed some caps around, I thought I was smart with the different capacitors for frequency impedance but theres 6 pins so 6 caps haha**
 <img width="1118" height="634" alt="image" src="https://github.com/user-attachments/assets/06feab77-7deb-4bbd-8444-e733cd697b42" />
 
 
