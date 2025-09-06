@@ -2,7 +2,7 @@
 Title: "FlopperOne"
 Author: "Cybdo"
 Description: "Open Source Single Board Hacker Multitool based off the Flipper Zero"
-Created On: "6/9/2025" (DD/MM/YYYY)
+Created On: 2025-09-06
 ---
 
 # September 6th: Everything set up!
