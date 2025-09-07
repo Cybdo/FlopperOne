@@ -5,7 +5,7 @@ Description: "Open Source Single Board Hacker Multitool based off the Flipper Ze
 Created On: 2025-09-06
 ---
 
-# Journal 1: September 6th: Everything set up! (3 hours)
+# Journal 1: September 6th: Everything set up! (2 hours)
 - Set up project in EasyEDA
 - Laid out basic schematics for USB-C 5V input and a step-down for 3V3 for the RP2040 microcontroller
 - made a concept plan for features:
@@ -33,5 +33,26 @@ All is going well so far
 <img width="1118" height="634" alt="image" src="https://github.com/user-attachments/assets/06feab77-7deb-4bbd-8444-e733cd697b42" />
 
 
+# Journal 3: September 7th: RP2040 related circuitry done! (3 hours)
+- Redid power to the RP2040 with a ultra low voltage dropout LDO and a MCP73871 for managing charging and power
+- Added a FPC connector to work on the daughterboard (antenna board)
+- Added clock and flash for the RP2040 (16MB and 12MHz respectively)
+- (overestimated journal 1 time, checking timestamps it was closer to 2hrs)
 
-**Total time spent: 3.5h**
+TODO:
+- beautify my schematics
+- daughterboard
+- find a suitable battery
+- find a suitable thermistor for said battery
+- OLED screen
+- input buttons
+- 3d printed case
+- FIRMWARE!!
+
+
+<img width="1118" height="795" alt="image" src="https://github.com/user-attachments/assets/0f2ec876-e8c6-4be0-8bdb-e9e37349338d" />
+<img width="1118" height="795" alt="image" src="https://github.com/user-attachments/assets/e0a46ed7-53c0-4fe0-9bc4-042ed65edaf7" />
+
+
+
+**Total time spent: 5.5h**
