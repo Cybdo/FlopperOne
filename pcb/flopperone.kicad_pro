@@ -408,6 +408,15 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "21842aa8-f461-4adb-8a2d-bf0920423cff",
+      "Root"
+    ],
+    [
+      "30df8f44-7ac0-4504-aa3a-cfe85e0767a2",
+      "rp2350 minimum system"
+    ]
+  ],
   "text_variables": {}
 }
