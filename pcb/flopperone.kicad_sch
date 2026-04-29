@@ -10,9 +10,39 @@
 		(company "Cybdo")
 	)
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 111.76 43.18) (xy 132.08 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05b13e77-3a0d-46a4-b3a0-89417cf71a62")
+	)
+	(wire
+		(pts
+			(xy 111.76 36.83) (xy 132.08 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30bc0fbb-623b-4cf5-93d5-c2428628dd90")
+	)
+	(wire
+		(pts
+			(xy 111.76 45.72) (xy 132.08 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9458ce1-738f-4732-aa5e-f64dee8821ac")
+	)
 	(sheet
-		(at 246.38 36.83)
-		(size 12.7 3.81)
+		(at 97.79 59.69)
+		(size 13.97 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -27,7 +57,7 @@
 		)
 		(uuid "20d416cd-3a54-4f6e-b778-cf0ebd32cf8a")
 		(property "Sheetname" "nfc"
-			(at 246.38 36.1184 0)
+			(at 97.79 58.9784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36,12 +66,42 @@
 			)
 		)
 		(property "Sheetfile" "nfc.kicad_sch"
-			(at 246.38 41.2246 0)
+			(at 97.79 80.5946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "NFC_IRQ" bidirectional
+			(at 111.76 71.12 0)
+			(uuid "7401eba5-c2f3-4818-9504-af098b211f83")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NFC_SCL" bidirectional
+			(at 111.76 64.77 0)
+			(uuid "595e0ac4-780e-4dd2-812a-fbec8ca5386d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NFC_SDA" bidirectional
+			(at 111.76 67.31 0)
+			(uuid "51aee6f0-af9c-4236-b7f6-75cd27bfb36e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -86,6 +146,36 @@
 				(justify left top)
 			)
 		)
+		(pin "ADC0_BATSENSE" input
+			(at 132.08 36.83 180)
+			(uuid "3c97191d-5a25-429a-a237-fd067fc7468a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DM" bidirectional
+			(at 132.08 43.18 180)
+			(uuid "9a1d51dc-3520-45ff-af56-fb6be8c49cdc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 132.08 45.72 180)
+			(uuid "290c2109-3619-425d-8ad0-1cd6585d3b9c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "flopperone"
 				(path "/21842aa8-f461-4adb-8a2d-bf0920423cff"
@@ -95,8 +185,8 @@
 		)
 	)
 	(sheet
-		(at 87.63 34.29)
-		(size 13.97 10.16)
+		(at 97.79 31.75)
+		(size 13.97 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -111,7 +201,7 @@
 		)
 		(uuid "7214aea4-da96-4ccd-a69f-79138721b561")
 		(property "Sheetname" "USB + Power"
-			(at 87.63 33.5784 0)
+			(at 97.79 31.0384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -120,7 +210,7 @@
 			)
 		)
 		(property "Sheetfile" "usbpower.kicad_sch"
-			(at 87.63 45.0346 0)
+			(at 97.79 50.1146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -129,7 +219,7 @@
 			)
 		)
 		(pin "USB_DM" bidirectional
-			(at 101.6 38.1 0)
+			(at 111.76 43.18 0)
 			(uuid "af7aa776-2dd7-4d46-b6d8-b4f023d2ee9a")
 			(effects
 				(font
@@ -139,8 +229,18 @@
 			)
 		)
 		(pin "USB_DP" bidirectional
-			(at 101.6 40.64 0)
+			(at 111.76 45.72 0)
 			(uuid "572526e4-ced0-4618-8661-a2a2b0023a73")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBAT_SENSE" output
+			(at 111.76 36.83 0)
+			(uuid "daa2ea3b-8cf4-4e76-adad-fd54e51f650a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -152,6 +252,48 @@
 			(project "flopperone"
 				(path "/21842aa8-f461-4adb-8a2d-bf0920423cff"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 247.65 59.69)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e5912293-cb50-431c-a0d4-6f44a188b263")
+		(property "Sheetname" "Peripherals"
+			(at 247.65 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "peripherals.kicad_sch"
+			(at 247.65 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "flopperone"
+				(path "/21842aa8-f461-4adb-8a2d-bf0920423cff"
+					(page "5")
 				)
 			)
 		)

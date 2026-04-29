@@ -2845,12 +2845,6 @@
 		(uuid "b294e4ba-3dab-4420-83c8-18328695d43a")
 	)
 	(junction
-		(at 95.25 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b69f3cde-d345-4789-8278-e42ed93f19b3")
-	)
-	(junction
 		(at 236.22 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3592,16 +3586,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 53.34) (xy 95.25 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68914f73-8616-495d-9ef5-3b6c3d6b345c")
-	)
-	(wire
-		(pts
 			(xy 195.58 48.26) (xy 207.01 48.26)
 		)
 		(stroke
@@ -3759,6 +3743,16 @@
 			(type default)
 		)
 		(uuid "87536fa5-ceed-4fe8-9f0d-2e02724da9e5")
+	)
+	(wire
+		(pts
+			(xy 95.25 50.8) (xy 95.25 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8865be98-36b4-41a7-b4e9-60a58f3b5ea4")
 	)
 	(wire
 		(pts
@@ -4079,6 +4073,16 @@
 			(type default)
 		)
 		(uuid "ba2d2c69-cafc-4603-a12a-3ef3bb00e01d")
+	)
+	(wire
+		(pts
+			(xy 175.26 140.97) (xy 177.8 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc347eca-39fe-4e79-9a6d-77332962a4c5")
 	)
 	(wire
 		(pts
@@ -4412,16 +4416,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 50.8) (xy 95.25 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eae45b65-ffc1-4afd-bca5-e3c61e4ab082")
-	)
-	(wire
-		(pts
 			(xy 99.06 92.71) (xy 111.76 92.71)
 		)
 		(stroke
@@ -4750,6 +4744,17 @@
 			(justify left)
 		)
 		(uuid "1d9fdaf6-bb39-4f55-a6fd-472ac5033d8d")
+	)
+	(hierarchical_label "ADC0_BATSENSE"
+		(shape input)
+		(at 177.8 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "89c4f182-bfd6-432a-aed2-81a7c94f6ef8")
 	)
 	(hierarchical_label "USB_DM"
 		(shape bidirectional)
@@ -5374,72 +5379,6 @@
 			(project ""
 				(path "/21842aa8-f461-4adb-8a2d-bf0920423cff/30df8f44-7ac0-4504-aa3a-cfe85e0767a2"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 95.25 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "29ff7ba9-047d-4687-a135-fa8947d556ac")
-		(property "Reference" "#PWR02"
-			(at 95.25 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 95.25 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "095219aa-3577-4cfb-a411-112ffe90b354")
-		)
-		(instances
-			(project ""
-				(path "/21842aa8-f461-4adb-8a2d-bf0920423cff/30df8f44-7ac0-4504-aa3a-cfe85e0767a2"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -7897,6 +7836,71 @@
 			(project "flopperone"
 				(path "/21842aa8-f461-4adb-8a2d-bf0920423cff/30df8f44-7ac0-4504-aa3a-cfe85e0767a2"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 95.25 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f15b0fa0-237f-4c6a-8423-215875128272")
+		(property "Reference" "#PWR02"
+			(at 95.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.314 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bec9058a-ab6a-41a1-a938-538ff2fd2809")
+		)
+		(instances
+			(project "flopperone"
+				(path "/21842aa8-f461-4adb-8a2d-bf0920423cff/30df8f44-7ac0-4504-aa3a-cfe85e0767a2"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)

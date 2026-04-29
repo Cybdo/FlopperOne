@@ -625,6 +625,10 @@
     [
       "20d416cd-3a54-4f6e-b778-cf0ebd32cf8a",
       "nfc"
+    ],
+    [
+      "e5912293-cb50-431c-a0d4-6f44a188b263",
+      "Peripherals"
     ]
   ],
   "text_variables": {}
